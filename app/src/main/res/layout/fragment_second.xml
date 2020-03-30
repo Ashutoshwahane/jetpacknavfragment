@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".SecondFragment">
+
+        <ImageView
+            android:layout_height="220dp"
+            android:layout_width="match_parent"
+            android:src="@drawable/icecream"
+            android:layout_weight="1"
+            style="@style/ImageStyle"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Try Ice-cream"
+            style="@style/BigTextStyle"
+            android:layout_weight="1"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/ButtonStyle"
+            android:text="@string/lets_try"
+            />
+
+    </LinearLayout>
+</layout>
